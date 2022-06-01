@@ -20,10 +20,10 @@ The datasets consists of the following features:
 
 This is an unbalanced dataset, where 268 of 768 are 1 (diabetic), and 500 are 0 (healty).
 
-<center><img width="600" src="images/prima.png"></center>
+<center><img width="600" src="https://github.com/mateusArnaudGoldbarg/colab2deploy/blob/main/images/prima.png?raw=true"></center>
 
 ## Workflow overview
 
 All the workflow used to build the prediction model followed the good practices of ML workflow as described in the image bellow. The input data came from kaggle, as described before. It was made the Extract, transform and Load (ETL), including data preprocessing and EDA anda data clean. The data was splitted in training and test dataset, and then the traning dataset was divided again in traning and validation dataset for learning purpose. It was made some Hyperparameters tuning to reach the best accuracy as possible. Then, the model was saved as artifact and also used for testing.
 
-<center><img width="800" src="images/workflow.png"></center>
+<center><img width="800" src="https://github.com/mateusArnaudGoldbarg/colab2deploy/blob/main/images/workflow.png?raw=true"></center>
